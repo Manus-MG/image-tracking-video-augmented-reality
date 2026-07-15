@@ -1,0 +1,21 @@
+{
+  "name": "ar-experience",
+  "version": "1.0.0",
+  "description": "WebAR Experience — Video overlay on custom marker image using MindAR.js",
+  "scripts": {
+    "start": "npx -y live-server --port=8080 --no-browser",
+    "compile": "npx -y live-server --port=8081 --open=tools/compile.html --no-browser"
+  },
+  "keywords": [
+    "ar",
+    "webar",
+    "mindar",
+    "aframe"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.92",
+    "canvas": "^2.11.2",
+    "mind-ar": "^1.2.5"
+  }
+}

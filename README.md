@@ -63,3 +63,4 @@ Mobile browsers require **HTTPS** for camera access. Options:
 2. Replace `assets/video.mp4` with your new video
 3. Re-run `npm run compile` to generate a new `targets.mind`
 4. Adjust the `<a-video>` dimensions in `index.html` if your video has a different aspect ratio
+5. Completly working fine!
